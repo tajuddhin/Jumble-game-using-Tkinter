@@ -9,7 +9,7 @@ class Application:
         app.geometry('1080x1080')
         app.configure(bg='ROYALBLUE')
         def jum():
-            word=['Apple','Watermelon','Orange','Pear','Cherry','Strawberry','Nectarine','Grape','Mango','Blueberry','Pomegranate','Plum','Banana','Raspberry','Mandarin','Jackfruit','Papaya','Pineapple','Lime','Lemon','Apricot','Grapefruit','Melon','Coconut','Avocado','Peach']
+            word=['Apple','Watermelon','Orange','Pear','taj','Cherry','Strawberry','Nectarine','Grape','Mango','Blueberry','Pomegranate','Plum','Banana','Raspberry','Mandarin','Jackfruit','Papaya','Pineapple','Lime','Lemon','Apricot','Grapefruit','Melon','Coconut','Avocado','Peach']
             w=random.choice(word)
             global c
             c=w
